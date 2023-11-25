@@ -1,0 +1,27 @@
+.courseCartContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.courseCart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    margin-top: 2rem;
+}
+
+.courseCart img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 20%;
+    height: auto;
+}
+
+.longTitle {
+    width: 70%;
+}
