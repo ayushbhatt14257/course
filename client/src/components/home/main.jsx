@@ -37,7 +37,7 @@ const Main = () => {
         <div className="right_slide">
           <h4>New Launches Course</h4>
           <img src={IMG} alt="" />
-          <a href="">see More</a>
+          <a href="/course">see More</a>
         </div>
       </div>
 

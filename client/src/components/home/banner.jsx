@@ -43,7 +43,7 @@ const Banner = () => {
         <div className="header_left">
           <h1>Transforming learning.</h1>
           <p>We are revolutionising the way skills, experiences, and learning outcomes are delivered online. Join the largest tech community and fast forward your career.</p>
-          <a href="/contact" className='btn btn-primary'>All Course</a>
+          <a href="/course" className='btn btn-primary'>All Course</a>
         </div>
 
         <div className="header_right">
