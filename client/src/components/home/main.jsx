@@ -2,9 +2,17 @@ import React, { useEffect } from 'react'
 import Banner from './banner'
 import Side from './slider'
 import './home.css'
-import IMG from '../../assets/banner3.jpg'
+import IMG from '../../assets/banner.jpg'
 import {getProducts} from '../redux/action/action';
 import {useDispatch, useSelector} from "react-redux"
+import IMG1 from '../../assets/volkswagen.svg'
+import IMG2 from '../../assets/samsung.svg'
+import IMG3 from '../../assets/cisco.svg'
+import IMG4 from '../../assets/att.svg'
+import IMG5 from '../../assets/procter_gamble.svg'
+import IMG6 from '../../assets/hewlett_packard_enterprise.svg'
+import IMG7 from '../../assets/citi.svg'
+import IMG8 from '../../assets/ericsson.svg'
 
 const Main = () => {
 
@@ -34,8 +42,35 @@ const Main = () => {
       </div>
 
       <Side title = "Explore Now" products={products} />
-        <div className="center_img">
-          <img src={IMG} alt="" />
+        <div className="testimonail">
+          {/* <img src={IMG} alt="" /> */}
+          <p className='testimonail_text'>Trusted by over 15,000 companies and millions of learners around the world</p>
+          <div className="imageContainer">
+            <div className="imgCart">
+              <img src={IMG1} alt="" />
+            </div>
+            <div className="imgCart">
+              <img src={IMG2} alt="" />
+            </div>
+            <div className="imgCart">
+              <img src={IMG3} alt="" />
+            </div>
+            <div className="imgCart">
+              <img src={IMG4} alt="" />
+            </div>
+            <div className="imgCart">
+              <img src={IMG5} alt="" />
+            </div>
+            <div className="imgCart">
+              <img src={IMG6} alt="" />
+            </div>
+            <div className="imgCart">
+              <img src={IMG7} alt="" />
+            </div>
+            <div className="imgCart">
+              <img src={IMG8} alt="" />
+            </div>
+          </div>
         </div>
       <Side title = "Best Seller"  products={products}/>
 

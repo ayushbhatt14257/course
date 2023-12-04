@@ -1,8 +1,20 @@
-.products_itemss {
+.heading {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h1 {
+    display: flex;
+    color: var(--color-primary);
+}
+
+.products_items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.6rem;
-    margin-top: 1rem;
+    margin-top: 7rem;
 }
 
 .row {
@@ -77,7 +89,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .products_itemss {
+    .products_items {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -87,7 +99,7 @@
 /** ============== MEDIA QUERIES (SMALL) ============ */
 
 @media screen and (max-width: 600px) {
-    .products_itemss {
+    .products_items {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }

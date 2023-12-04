@@ -24,7 +24,7 @@ const products = [{
     },
     {
         id: 'product2',
-        name: "DSA Crash Course",
+        name: "Data Structure Crash Course",
         instructor: 'Clement Mihailescu',
         description: 'Our library of practice problems to ace the programming interviews. The foundational knowledge to tackle any algorithm question.',
         enrollmentStatus: 'Open',
@@ -47,7 +47,7 @@ const products = [{
     },
     {
         id: 'product3',
-        name: "Front-end Developement Crash Course",
+        name: "Front-end Crash Course",
         instructor: 'Antoine Pourchet',
         description: 'Your frontend development journey starts here. Our collection of coding questions to crush the frontend interviews.',
         enrollmentStatus: 'Open',

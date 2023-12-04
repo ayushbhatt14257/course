@@ -83,7 +83,7 @@ const BuyNow = () => {
       <div className="heading">
         <h1>Your Enrolled Course's</h1>
       </div>
-      <div className="courseCartContainer">
+      {/* <div className="courseCartContainer">
       
       {
         cartdata.map((e, k) => {
@@ -106,6 +106,38 @@ const BuyNow = () => {
           })
         }
        
+      </div> */}
+      <div className="products_itemss container">
+            {
+              cartdata.map((e) => {
+                return (
+
+                    <div className="row">
+
+                    <div className="col-lg-3 col-md-2 col-sm-1 detailsContainer">
+                    <div className="details">
+                      <h1>{e.name}</h1>
+                      <div className="image">
+                        <img src={e.thumbnail} alt="" />
+                      </div>
+                      <div className="discreption">
+                        <p>{e.description}</p>
+                      </div>
+                      <div className="instructor_time">
+                        <p>{e.instructor}</p>
+                        <p>{e.duration}</p>
+                      </div>
+                      {/* <div className="btn"> */}
+                        <button className='btn' onClick={() => removedata(e.id)}>Unenroll</button>
+                      {/* </div> */}
+                    </div>
+
+          </div>
+          </div>
+          
+                )
+              })
+            }
       </div>
     </div> 
      :  <Empty/>

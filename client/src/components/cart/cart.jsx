@@ -130,18 +130,18 @@ const Cart = () => {
                     </div>
                     <div className="right_cart">
                         <h3>{inddata.name}</h3>
-                        <h4>Instructor: <span style={{ color: "#565959", fontWeight: 500, letterSpacing: ".4px" }}>{inddata.instructor}</span></h4>
+                        <h4>Instructor: <span style={{ color: "var(--color-light)", fontWeight: 500, letterSpacing: ".4px" }}>{inddata.instructor}</span></h4>
                         <Divider />
                         <p className='mrp'>Enrollment Status : <span style={{ color: "#00FF00", fontWeight: 500, letterSpacing: ".4px" }}>{inddata.enrollmentStatus}</span></p>
-                        <p>Course Duration: <span style={{ color: "#812704" }}>{inddata.duration}</span></p>
-                        <p>Classes Timing: <span style={{ color: "#812704" }}>{inddata.schedule}</span></p>
+                        <p>Course Duration: <span style={{ color: "red" }}>{inddata.duration}</span></p>
+                        <p>Classes Timing: <span style={{ color: "red" }}>{inddata.schedule}</span></p>
 
                         <div className="discount_box">
-                            <h5>Class Mode : <span style={{ color: "#111" }}>{inddata.location}</span></h5>
-                            <h4>Prerequisites : <span style={{ color: "#111", fontWeight: 600 }}>{inddata.prerequisites[0]}, {inddata.prerequisites[1]}</span></h4>
+                            <h5>Class Mode : <span style={{ color: "white" }}>{inddata.location}</span></h5>
+                            <h4>Prerequisites : <span style={{ color: "white", fontWeight: 600 }}>{inddata.prerequisites[0]}, {inddata.prerequisites[1]}</span></h4>
                             {/* <p>Fast <span style={{color: "#111", fontWeight:600}} >Tommorow</span></p> */}
                         </div>
-                        <p className='description'>Description : <span style={{ color: "#565959", fontSize: 14, fontWeight: 500, letterSpacing: ".4px" }}>{inddata.description}</span></p>
+                        <p className='description'>Description : <span style={{ color: "var(--color-primary)", fontSize: 14, fontWeight: 500, letterSpacing: ".4px" }}>{inddata.description}</span></p>
                         <h2>Syllabus : </h2>
                         <div>
                             <Accordion>

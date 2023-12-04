@@ -18,8 +18,8 @@ const RenderMenu = () => {
     if (!mystate && !account) {
         return (
             <>
+                <li><NavLink to="/course">Course</NavLink></li>
                 <li><NavLink to="/login">signin</NavLink></li>
-                {/* <li><NavLink to="/a">About</NavLink></li> */}
                 {/* <li><NavLink to="/logout">Logout</NavLink></li> */}
                 {
                     account ? <li><NavLink to='/buynow'><Avatar className='avtar2'>{account.fname[0].toUpperCase()}</Avatar></NavLink></li> : <li><NavLink to='/login'><Avatar></Avatar></NavLink></li>
@@ -30,7 +30,7 @@ const RenderMenu = () => {
         return (
             <>
                 {/* <li><NavLink to="/login">signin</NavLink></li> */}
-                {/* <li><NavLink to="/a">About</NavLink></li> */}
+                <li><NavLink to="/course">Course</NavLink></li>
                 <li><NavLink to="/logout">Logout</NavLink></li>
                 {
                     account ? <li><NavLink to='/buynow'><Avatar className='avtar2'>{account.fname[0].toUpperCase()}</Avatar></NavLink></li> : <li><NavLink to='/login'><Avatar></Avatar></NavLink></li>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import IMG from '../../assets/banner1.jpg'
+// import IMG from '../../assets/banner1.jpg'
 import {NavLink} from 'react-router-dom'
 import {ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -64,7 +64,7 @@ const Siginup = () => {
         <section>
             <div className='sign_container'>
                 <div className="sign_header">
-                    <img src={IMG} alt="" />
+                    {/* <img src={IMG} alt="" /> */}
                 </div>
                 <div className="sign_form">
                     <form method="POST">

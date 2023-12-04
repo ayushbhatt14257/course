@@ -1,7 +1,7 @@
 import {React,  useState } from 'react'
 import  { useContext } from 'react'
 import './signin_siginup.css'
-import IMG from '../../assets/banner1.jpg'
+// import IMG from '../../assets/banner1.jpg'
 import {NavLink} from 'react-router-dom'
 import {ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -77,7 +77,7 @@ const Sigin = () => {
         <section>
             <div className='sign_container'>
                 <div className="sign_header">
-                    <img src={IMG} alt="" />
+                    {/* <img src={IMG} alt="" /> */}
                 </div>
                 <div className="sign_form">
                     <form method='POST'>
